@@ -1,8 +1,16 @@
 # bagTrack
-baggage tracking prototype using Hyperledger Fabric
-  
-For proper operation, the repository **baggage** must be placed inside fabric-samples
+# Baggage tracking prototype using Hyperledger Fabric
 
-The baggage repository **inside chaincode** repo, on the other hand, must be placed inside  
->fabric-samples/chaincode
+## INSTALLATION
+
+### STEP 1
+First of all you need to get the *fabric-samples* folder. To do this, go to [https://github.com/hyperledger/fabric-samples](https://github.com/hyperledger/fabric-samples) and download
+
+### STEP 2
+For proper operation, the repository **baggage** must be placed inside *fabric-samples* folder
+
+The baggage repository **inside** *chaincode* repo must be placed inside  
+`fabric-samples/chaincode`
+
+
 
