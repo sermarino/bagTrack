@@ -1,4 +1,4 @@
-# bagTrack
+
 # Baggage tracking prototype using Hyperledger Fabric
 
 ## INSTALLATION
