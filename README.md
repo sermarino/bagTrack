@@ -23,12 +23,12 @@ There are two folders: **bagTrack** and **chaincode**
 `baggage.tar.gz` The chaincode package to install  
 
 #### javascript folder
-Inside the *bagTrack* folder there is another folder, *javascript* that contains all the scripts that allow interaction with the ledger  
+Inside the *bagTrack* folder there is another folder, *javascript*, that contains all the scripts that allow interaction with the ledger  
 Each of these scripts must be run from the shell  
 
 `node script.js (arg1) (arg2) ...`
 
-`invoke.js` is necessary to invoke this script every time a change is made to the ledger. No parameters required
+`invoke.js` is necessary to invoke this script every time a change is made to the ledger. No parameters required  
 `addBag.js` Allows you to add an object to the ledger. Requires the baggage ID, flight ID and owner
   >`node addBag.js bag002 ab123 cde456`  
   
