@@ -11,6 +11,11 @@ For proper operation, the repository **bagTrack** must be placed inside *fabric-
 
 The *baggage* repository **inside** *chaincode* repo must be placed inside `fabric-samples/chaincode`
 
+### STEP 3 
+Move to `bagTrack` and run `ricarica.sh` or `starFabric.sh` to start the network.  
+To interact with ledger, you need to move inside `bagTrack/javascript` and start one of the scripts.
+
+
 ## HOW DOES IT WORKS?
 
 There are two folders: **bagTrack** and **chaincode** 
