@@ -1,6 +1,62 @@
 
 # Baggage tracking prototype using Hyperledger Fabric
 
+***LINK FOR HYPERLEDGER FABRIC*** [https://github.com/hyperledger/fabric-samples](https://github.com/hyperledger/fabric-samples)
+ 
+## Prerequisites
+  1.cURL - latest version
+  2.git  
+  3.docker engine - 17.06.2-ce or higher  
+  4.Docker-compose - 1.14 o or higher  
+  5.Go: 1.13.x   
+  6.Node: 8.9 or higher (N.B. version 9 is not supported. Version 10 is supported from 10.15.3 onwards)  
+  7.npm: 5.x  
+  8.Python: 2.7.x  
+
+### how to install the prerequisites
+  >sudo apt-get install curl
+  >sudo apt-get install golang
+	
+  >export GOPATH=$HOME/go
+	
+  >export PATH=$PATH:$GOPATH/bin
+  
+  >sudo apt-get install nodejs
+	
+  >sudo apt-get install npm
+	
+  >sudo apt-get install python
+
+  >curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+  >sudo add-apt-repository \
+	   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+	   $(lsb_release -cs) \
+	   stable" 
+  
+  >sudo apt-get update
+  
+  >apt-cache policy docker-ce
+	
+  >sudo apt-get install -y docker-ce
+	
+  >sudo apt-get install docker-compose
+	
+  >sudo apt-get upgrade
+  
+  >wget https://dl.google.com/go/go1.13.9.linux-amd64.tar.gz
+	>tar xf go1.13.9.linux-amd64.tar.gz
+	>sudo mv go /usr/local/go-1.13
+	>export GOROOT=/usr/local/go-1.13
+	>export PATH=$GOROOT/bin:$PATH
+	>export GOPATH=/usr/local/go
+	>export PATH=$PATH:$GOPATH/bin	
+
+  >curl -sSL https://bit.ly/2ysbOFE | bash -s
+
+
+
+
 ## INSTALLATION
 
 ### STEP 1
