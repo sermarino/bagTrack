@@ -72,7 +72,7 @@ Move to `bagTrack` and run `ricarica.sh` or `starFabric.sh` to start the network
 To interact with ledger, you need to move inside `bagTrack/javascript` and start one of the scripts.
 
 
-## HOW DOES IT WORKS?
+## HOW DOES IT WORK?
 
 There are two folders: **bagTrack** and **chaincode** 
 
