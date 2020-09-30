@@ -3,7 +3,19 @@
 
 
 ***LINK FOR HYPERLEDGER FABRIC*** [https://github.com/hyperledger/fabric-samples](https://github.com/hyperledger/fabric-samples)
- 
+
+
+## Prerequisites
+  1.cURL - latest version
+  2.git  
+  3.docker engine - 17.06.2-ce or higher  
+  4.Docker-compose - 1.14 o or higher  
+  5.Go: 1.13.x   
+  6.Node: 8.9 or higher (N.B. version 9 is not supported. Version 10 is supported from 10.15.3 onwards)  
+  7.npm: 5.x  
+  8.Python: 2.7.x  
+
+
 ## STEP 1
 The first thing to do is download this repository, so type on your shell:
   >git clone https://github.com/sermarino/bagTrack
@@ -18,18 +30,6 @@ in this way the shell script becomes executable
 Now run *installation.sh* script: 
   >./installation.sh
 
-
-
-
-## Prerequisites
-  1.cURL - latest version
-  2.git  
-  3.docker engine - 17.06.2-ce or higher  
-  4.Docker-compose - 1.14 o or higher  
-  5.Go: 1.13.x   
-  6.Node: 8.9 or higher (N.B. version 9 is not supported. Version 10 is supported from 10.15.3 onwards)  
-  7.npm: 5.x  
-  8.Python: 2.7.x  
 
 
 ## HOW DOES IT WORKS?
