@@ -100,7 +100,7 @@ mv ./bagTrack/bagTrack ./fabric-samples/
 mv ./bagTrack/chaincode/baggage ./fabric-samples/chaincode/
 mv ./network ./fabric-samples/
 
-cd fabric-samples/baggage
+cd fabric-samples/bagtrack
 
 chmod +x ricarica.sh
 
