@@ -4,14 +4,16 @@
 
 ***LINK FOR HYPERLEDGER FABRIC*** [https://github.com/hyperledger/fabric-samples](https://github.com/hyperledger/fabric-samples)
  
-
+## STEP 1
 The first thing to do is download this repository, so type on your shell:
   >git clone https://github.com/sermarino/bagTrack
 
+## STEP 2
 Then, to be sure,move inside the bagTrack folder and type on the shell:
   >chmod +x installation.sh
 in this way the shell script becomes executable
 
+## STEP 3
 Now run *installation.sh* script: 
   >./installation.sh
 
