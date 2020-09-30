@@ -10,7 +10,7 @@ The first thing to do is download this repository, so type on your shell:
 
 ## STEP 2
 Then, to be sure,move inside the bagTrack folder and type on the shell:
-  >chmod +x installation.sh
+  >chmod +x installation.sh  
 in this way the shell script becomes executable
 
 ## STEP 3
