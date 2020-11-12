@@ -1,5 +1,6 @@
 
 # Baggage tracking prototype using Hyperledger Fabric
+This software has been tested on Linux Ubuntu 20.
 
 
 ***LINK FOR HYPERLEDGER FABRIC*** [https://github.com/hyperledger/fabric-samples](https://github.com/hyperledger/fabric-samples)
